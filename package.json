@@ -1,13 +1,13 @@
 {
-  "homepage":"https://github.io/ayesha1706/food-del-app/",
+  "homepage": "https://github.io/ayesha1706/food-del-app/",
   "schema": "https//json.schemastore.org/package",
   "name": "basics",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
